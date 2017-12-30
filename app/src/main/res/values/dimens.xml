@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="common16">16dp</dimen>
+    <dimen name="common24">24dp</dimen>
+    <dimen name="common40">40dp</dimen>
+    <dimen name="common4">4dp</dimen>
+    <dimen name="common0">0dp</dimen>
+    <dimen name="common20">20dp</dimen>
+    <dimen name="common2">2dp</dimen>
+    <dimen name="common64">64dp</dimen>
+    <dimen name="common32">32dp</dimen>
+    <dimen name="common8">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="icon_star">25dp</dimen>
+    <dimen name="common12">12dp</dimen>
+    <dimen name="icon_text">22dp</dimen>
+    <dimen name="common72">72dp</dimen>
+    <dimen name="common14">14dp</dimen>
+    <dimen name="common10">10dp</dimen>
+    <dimen name="common128">128dp</dimen>
+    <dimen name="common256">256dp</dimen>
+    <dimen name="common50">50dp</dimen>
+</resources>

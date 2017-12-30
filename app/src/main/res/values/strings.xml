@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sms Kota Pasuruan</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="must_be_filled">Harus Diisi</string>
+    <string name="loading">Loading…</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="are_you_sure">Apakah Anda Yakin ?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="logout">Log Out</string>
+    <string name="search">Cari</string>
+</resources>

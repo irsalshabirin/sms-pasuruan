@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_all_mail"
+            android:title="Semua Surat" />
+        <!--android:icon="@drawable/ic_menu_camera"-->
+
+        <item
+            android:id="@+id/nav_unread_mail"
+            android:title="Belum Dibaca" />
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+
+        <item
+            android:id="@+id/nav_read_mail"
+            android:title="Sudah Dibaca" />
+        <!--android:icon="@drawable/ic_menu_slideshow"-->
+
+        <item
+            android:id="@+id/nav_disposition"
+            android:title="Di Disposisi" />
+        <!--android:icon="@drawable/ic_menu_manage"-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <!--<item-->
+            <!--android:id="@+id/nav_share"-->
+            <!--android:icon="@drawable/ic_menu_share"-->
+            <!--android:title="Share" />-->
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

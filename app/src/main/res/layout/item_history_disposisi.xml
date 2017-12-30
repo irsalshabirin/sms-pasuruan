@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_attachment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/common8"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/common16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/common4"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Tanggal Disposisi"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_disposisi"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="17 Januari 2017" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/common4"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common4">
+            <!--Asal -->
+            <LinearLayout
+                android:id="@+id/ll_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/v_center"
+                android:layout_toStartOf="@+id/v_center"
+                android:orientation="vertical"
+                android:padding="@dimen/common4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common4"
+                    android:gravity="left|start"
+                    android:text="Asal Disposisi"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_asal_disposisi"
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="17 Januari 2017" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v_center"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ll_left"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/darker_gray" />
+
+            <!--Tujuan -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/v_center"
+                android:layout_toRightOf="@+id/v_center"
+                android:orientation="vertical"
+                android:padding="@dimen/common4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common4"
+                    android:gravity="right|end"
+                    android:text="Tujuan Disposisi"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_tujuan_disposisi"
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|end"
+                    android:text="17 Januari 2017" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/common4"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common4"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <com.mikepenz.iconics.view.IconicsTextView
+                android:id="@+id/itv_balas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Balas\n{gmd-check}"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <com.mikepenz.iconics.view.IconicsTextView
+                android:id="@+id/itv_baca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Baca\n{gmd-check}"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <com.mikepenz.iconics.view.IconicsTextView
+                android:id="@+id/itv_disposisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Disposisi\n{gmd-check}"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

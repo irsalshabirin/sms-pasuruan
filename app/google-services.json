@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "192390770661",
+    "firebase_url": "https://sms-pasuruan.firebaseio.com",
+    "project_id": "sms-pasuruan",
+    "storage_bucket": "sms-pasuruan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192390770661:android:fc376c36292edc39",
+        "android_client_info": {
+          "package_name": "co.dust.smspasuruan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192390770661-vh53caai0lf8mpc6jr1635b6tnolpav3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.dust.smspasuruan",
+            "certificate_hash": "70e743b8a29092ba9392eab120debf1c97c208c2"
+          }
+        },
+        {
+          "client_id": "192390770661-5m3ch3f8to5a9hgaran1r8peopa2skpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpca7ZuFiR9tqQUroy3SHFlQJTflCtCUA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192390770661-5m3ch3f8to5a9hgaran1r8peopa2skpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
